@@ -4,12 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link rel="stylesheet" href="">
     <style>
-        .wrapper{
-            max-width:1200;
-            width:90%;
-            margin:0 auto;
-        }
+
     </style>
 </head>
 <body>
@@ -48,7 +45,52 @@
             </div>
         </aside>
 
+        <section class="wrapper">
+            <div class="blogTop">
+                <h2>WHY I BECAME A BLOGGER</h2>
+                <p><em>Monday October 8th, 2018 by <span><strong>Sophie Barlow</strong></span></em></p>
+                <p>Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus. Nam tempus vel odio vitae aliquam.</p>
+                <p>In imperdiet eros id lacus vestibulum vestibulum. Suspendisse fermentum sem sagittis ante venenatis egestas quis vel justo. Maecenas semper suscipit nunc, set aliquam sapien convallis eu. Nulla ut turpis in diam dapibus consequat. Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacu.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. In volutpat ante semper diam molestie, et aliquam erat laoreet. Set sit amet arcu aliquet, molestie justo at, auctor nunc. Phasellus ligula ipsum, volutpat eget semper id, viverra eget nibh. Suspendisse luctus mattis cursus. Nam consectetur ante at nisl hendrerit gravida. Donec vehicula rhoncus mattis. Mauris dignissim semper mattis. Fusce porttitor a mi at suscipit. Praesent facilisis dolor sapien, vel sodales augue mollis ut. Mauris venenatis magna eu tortor posuere luctus. Aenean tincidunt turpis sed dui aliquam vehicula. Praesent nec elit non dolor consectetur tincidunt sed in felis. Donec elementum, lacus at mattis tincidunt, eros magna faucibus sem, in condimentum est augue tristique risus.</p>
+                <p>Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus. Nam tempus vel odio vitae aliquam.</p>
+                <p>In imperdiet eros id lacus vestibulum vestibulum. Suspendisse fermentum sem sagittis ante venenatis egestas quis vel justo. Maecenas semper suscipit nunc, set aliquam sapien convallis eu. Nulla ut turpis in diam dapibus consequat. Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacu.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. In volutpat ante semper diam molestie, et aliquam erat laoreet. Set sit amet arcu aliquet, molestie justo at, auctor nunc. Phasellus ligula ipsum, volutpat eget semper id, viverra eget nibh. Suspendisse luctus mattis cursus. Nam consectetur ante at nisl hendrerit gravida. Donec vehicula rhoncus mattis. Mauris dignissim semper mattis. Fusce porttitor a mi at suscipit. Praesent facilisis dolor sapien, vel sodales augue mollis ut. Mauris venenatis magna eu tortor posuere luctus. Aenean tincidunt turpis sed dui aliquam vehicula. Praesent nec elit non dolor consectetur tincidunt sed in felis. Donec elementum, lacus at mattis tincidunt, eros magna faucibus sem, in condimentum est augue tristique risus.</p>
+            </div>
 
+            <div class="blogMid">
+                <section class="comment comment1">
+                    <img src="assets/assets/blog-image-3.jpg" alt="A man sitting on an orange chair.">
+                    <div>
+                        <p><em><strong><span>Tuesday October 9th, 2018 by Jeremy</span></strong></em></p>
+                        <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu.</p>
+                    </div>
+                </section>
+
+                <section class="comment comment2">
+                    <img src="assets/assets/blog-image-4.jpg" alt="A woman with sunglasses.">
+                    <div>
+                        <p><em><strong><span>Wednesday October 10th, 2018 by Julia</span></strong></em></p>
+                        <p>Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu.</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="blogBot">
+                <form action="#">
+                    <div class="formTop">
+                        <label for="name" class="srOnly">Enter your name:</label>
+                        <input type="text" id="name" name="name" required="true" placeholder="Name">
+                        <label for="email" class="srOnly">Enter your email:</label>
+                        <input type="email" id="email" name="email" required="true" placeholder="Email address">
+                    </div>
+                    <div class="formBot">
+                        <label for="comment" class="srOnly">Enter your comment:</label>
+                        <textarea id="comment" name="comment" required="true" placeholder="Comment" cols="30" rows="10"></textarea>
+                        <input type="submit" id="submit" name="submit" value="POST COMMENT">
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
 
     <footer>

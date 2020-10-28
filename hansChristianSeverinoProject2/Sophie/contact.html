@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/06ce480961.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="">
     <style>
-        
+
     </style>
 </head>
 <body>
@@ -42,14 +42,14 @@
 
             <form action="#">
                 <div class="formTop">
-                    <label for="name"></label>
+                    <label for="name" class="srOnly">Enter your name:</label>
                     <input type="text" id="name" name="name" required="true" placeholder="Name">
-                    <label for="email"></label>
+                    <label for="email" class="srOnly">Enter your email:</label>
                     <input type="email" id="email" name="email" required="true" placeholder="Email address">
                 </div>
                 <div class="formBot">
-                    <label for="message"></label>
-                    <input type="text" id="message" name="message" required="true" placeholder="Message">
+                    <label for="message" class="srOnly">Enter your message:</label>
+                    <textarea  id="message" name="message" required="true" placeholder="Message" cols="30" rows="10"></textarea>
                     <input type="submit" id="submit" name="submit" value="SUBMIT">
                 </div>
             </form>
