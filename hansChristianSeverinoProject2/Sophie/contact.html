@@ -29,10 +29,10 @@
     <main>
         <section class="contact wrapper">
             <div>
-                <a href=""><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-twitter"></i></a>
-                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
             </div>
             <p><strong>info@email.com</strong></p>
             <p>123 - 456 - 7890</p>
@@ -40,15 +40,17 @@
             <p>Toronto, Ontario</p>
             <p>M5V2D5</p>
 
-            <form action="">
+            <form action="#">
                 <div class="formTop">
-                    <input type="text" id="name" placeholder="Name">
-                    <input type="email" id="email" placeholder="Email address">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" required="true" placeholder="Name">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" required="true" placeholder="Email address">
                 </div>
                 <div class="formBot">
-                    <!--Is the message box type="text" or something else? Inquiry. -->
-                    <input type="text" id="message" placeholder="Message">
-                    <input type="submit" id="submit" value="SUBMIT">
+                    <label for="message"></label>
+                    <input type="text" id="message" name="message" required="true" placeholder="Message">
+                    <input type="submit" id="submit" name="submit" value="SUBMIT">
                 </div>
             </form>
         </section>
