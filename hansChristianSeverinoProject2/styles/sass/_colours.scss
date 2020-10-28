@@ -1,0 +1,40 @@
+Header nav,
+#indexHeader,
+.fas{
+    background-color:$orangeyY;
+}
+
+.about,
+.info,
+.blog,
+#blogBody,
+#contactBody{
+    background-color:$whiteS;
+}
+
+.about a,
+.things a,
+.blogBot a,
+#submit{
+    background-color:$accent;
+}
+
+.things,
+.photos,
+.contactTop,
+.blogAbout,
+.blogPosts,
+.blogTop,
+.comment1,
+.comment2{
+    background-color:white;
+}
+
+span{
+    color:$darkGB;
+}
+
+.fab{
+    color:$orangeyY;
+}
+

@@ -11,7 +11,6 @@ $accent:rgb(5,175,193);
 $rust:rgb(168,39,6);
 $whiteS:rgb(240,239,237);
 
-
 *{
     margin:0;
     padding:0;
@@ -72,6 +71,13 @@ footer p{
 .blog a,
 #submit{
     line-height:3.2rem;
+}
+
+.things h2,
+.info h2,
+.blogTop h2,
+.sophie{
+    font-size:3.2rem;
 }
 
 .about a,

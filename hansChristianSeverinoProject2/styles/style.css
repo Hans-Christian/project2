@@ -297,6 +297,13 @@ footer p {
   line-height: 3.2rem;
 }
 
+.things h2,
+.info h2,
+.blogTop h2,
+.sophie {
+  font-size: 3.2rem;
+}
+
 .about a,
 .things a,
 .blog a,
@@ -310,6 +317,46 @@ footer p {
   font-size: 2.4rem;
 }
 
+Header nav,
+#indexHeader,
+.fas {
+  background-color: #f6a823;
+}
+
+.about,
+.info,
+.blog,
+#blogBody,
+#contactBody {
+  background-color: #f0efed;
+}
+
+.about a,
+.things a,
+.blogBot a,
+#submit {
+  background-color: #05afc1;
+}
+
+.things,
+.photos,
+.contactTop,
+.blogAbout,
+.blogPosts,
+.blogTop,
+.comment1,
+.comment2 {
+  background-color: white;
+}
+
+span {
+  color: #285e64;
+}
+
+.fab {
+  color: #f6a823;
+}
+
 header nav {
   line-height: 2.9rem;
   text-align: right;
@@ -319,8 +366,12 @@ header nav li {
   list-style: none;
 }
 
+.sophie,
 h1 {
   font-family: "Lora", serif;
+}
+
+h1 {
   font-size: 8rem;
   line-height: 9.2rem;
 }
@@ -328,12 +379,6 @@ h1 {
 .about h2,
 .blog h2 {
   font-size: 4.2rem;
-}
-
-.things h2,
-.info h2,
-.blogTop h2 {
-  font-size: 3.2rem;
 }
 
 footer {
