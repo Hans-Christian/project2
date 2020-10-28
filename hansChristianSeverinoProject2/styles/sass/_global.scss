@@ -1,0 +1,53 @@
+// fonts:
+$roboto:'Roboto', sans-serif;
+$lora:'Lora', serif;
+
+// colours:
+$black:rgb(44,44,44);
+$darkGB:rgb(40,94,100);
+$orangeyY:rgb(246,168,35);
+$grey:rgb(79,79,79);
+$accent:rgb(5,175,193);
+$rust:rgb(168,39,6);
+$whiteS:rgb(240,239,237);
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body,
+a{
+    color:$black;
+}
+
+a{
+    text-decoration:none;
+}
+
+body{
+    font-family:$roboto;
+    font-size:2rem;
+    line-height:3.2rem;
+}
+
+h1,
+nav{
+    font-weight:bold;
+}
+
+h1{
+    font-family:$lora;
+    font-size:8rem;
+    line-height:9.2rem;
+}
+
+nav{
+    line-height:2.9rem;
+    letter-spacing:1px;
+}
