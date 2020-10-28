@@ -270,7 +270,8 @@ header nav,
 .about h2,
 .blog h2,
 aside h3,
-#submit {
+#submit,
+footer p {
   font-weight: bold;
 }
 
@@ -284,7 +285,8 @@ header nav,
 .about h2,
 .blog h2,
 aside h3,
-#submit {
+#submit,
+footer p {
   letter-spacing: 1px;
 }
 
@@ -293,10 +295,18 @@ aside h3,
 .blog a,
 #submit {
   line-height: 3.2rem;
+}
+
+.about a,
+.things a,
+.blog a,
+#submit,
+footer p {
   text-align: center;
 }
 
-aside h3 {
+aside h3,
+footer p {
   font-size: 2.4rem;
 }
 
@@ -329,5 +339,4 @@ h1 {
 footer {
   background-color: #2c2c2c;
   color: #f0efed;
-  text-align: center;
 }
