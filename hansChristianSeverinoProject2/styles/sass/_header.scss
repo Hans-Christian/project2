@@ -16,3 +16,18 @@ h1{
     font-size:8rem;
     line-height:9.2rem;
 }
+
+#blogHeader,
+#contactHeader{
+    background-size:contain;
+    background-repeat:no-repeat;
+    min-height:100vh;
+}
+
+#blogHeader{
+    background-image:url(../Sophie/assets/assets/blog-image-1.jpg);
+}
+
+#contactHeader{
+    background-image:url(../Sophie/assets/assets/contact-image-1.jpg);
+}

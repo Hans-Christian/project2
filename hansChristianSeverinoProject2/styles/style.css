@@ -244,6 +244,12 @@ html {
   font-size: 62.5%;
 }
 
+.wrapper {
+  max-width: 1300px;
+  width: 93%;
+  margin: 0 auto;
+}
+
 body,
 a {
   color: #2c2c2c;
@@ -326,8 +332,8 @@ Header nav,
 .about,
 .info,
 .blog,
-#blogBody,
-#contactBody {
+#contactBody,
+#blogBody {
   background-color: #f0efed;
 }
 
@@ -374,6 +380,21 @@ h1 {
 h1 {
   font-size: 8rem;
   line-height: 9.2rem;
+}
+
+#blogHeader,
+#contactHeader {
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+#blogHeader {
+  background-image: url(../Sophie/assets/assets/blog-image-1.jpg);
+}
+
+#contactHeader {
+  background-image: url(../Sophie/assets/assets/contact-image-1.jpg);
 }
 
 .about h2,
