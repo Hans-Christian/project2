@@ -250,6 +250,11 @@ html {
   margin: 0 auto;
 }
 
+img {
+  height: auto;
+  display: block;
+}
+
 body,
 a {
   color: #2c2c2c;
@@ -474,6 +479,10 @@ header ul {
 .about h2,
 .blog h2 {
   font-size: 4.2rem;
+}
+
+.blog > img {
+  width: 100%;
 }
 
 .photos,

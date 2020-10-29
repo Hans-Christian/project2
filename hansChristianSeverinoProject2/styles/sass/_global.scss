@@ -26,6 +26,12 @@ html{
     margin:0 auto;
 }
 
+img{
+    // width:100%;
+    height:auto;
+    display:block;
+}
+
 body,
 a{
     color:$black;
