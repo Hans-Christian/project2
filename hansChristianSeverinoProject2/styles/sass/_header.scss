@@ -18,8 +18,16 @@ h1{
     font-family:$lora;
 }
 
-h1{
+.headerBot h1{
     font-size:13rem;
+    padding:9rem 0 0 11.5rem;
+}
+
+h1{
+    font-size:8rem;
+}
+
+h1{
     line-height:9.2rem;
 }
 
@@ -38,7 +46,34 @@ h1{
     background-image:url(../Sophie/assets/assets/contact-image-1.jpg);
 }
 
+#blogHeader,
+#contactHeader{
+    background-position:0 53px;
+}
+
+.headerBot div + img,
+.headerBot div > img,
+#blogHeader h1,
+#contactHeader h1{
+    position:relative;
+}
+
+.headerBot div + img{
+    box-shadow:20px 20px white;
+    bottom:-6rem;
+    right:5rem;
+}
+
+.headerBot div > img{
+    top:22rem;
+    left:3rem;
+}
+
+#blogHeader h1,
+#contactHeader h1{
+    bottom:-27.1rem;
+}
+
 header ul{
     justify-content:center;
-    margin-bottom:5rem;
 }
