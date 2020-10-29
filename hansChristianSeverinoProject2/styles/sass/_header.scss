@@ -3,8 +3,14 @@ header nav{
     text-align:right;
 }
 
-header nav li{
+header li{
     list-style:none;
+    margin-right:5rem;
+    padding:10px 0;
+}
+
+header li:last-child{
+    margin:0;
 }
 
 .sophie,
@@ -13,7 +19,7 @@ h1{
 }
 
 h1{
-    font-size:8rem;
+    font-size:13rem;
     line-height:9.2rem;
 }
 
@@ -30,4 +36,9 @@ h1{
 
 #contactHeader{
     background-image:url(../Sophie/assets/assets/contact-image-1.jpg);
+}
+
+header ul{
+    justify-content:center;
+    margin-bottom:5rem;
 }
