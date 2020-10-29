@@ -332,6 +332,7 @@ header ul,
 .headerBot,
 .thingsTop,
 .thingsBot,
+.blogBot,
 .photos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -341,6 +342,7 @@ header ul,
 }
 
 .headerBot,
+.blogBot,
 .photos {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -486,7 +488,8 @@ header ul {
 }
 
 .photos,
-.about {
+.about,
+.blogBot {
   padding: 10rem 0;
 }
 
@@ -498,6 +501,16 @@ header ul {
 .things a,
 .blogBot a {
   padding: 1.3rem 2rem;
+}
+
+.blogBot img {
+  -webkit-box-shadow: 20px 20px #f6a823;
+          box-shadow: 20px 20px #f6a823;
+}
+
+.blogBot div:nth-child(2) {
+  width: 65%;
+  margin-top: 2.3rem;
 }
 
 footer {

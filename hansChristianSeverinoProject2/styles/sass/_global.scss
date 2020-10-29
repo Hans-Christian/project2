@@ -109,12 +109,14 @@ header ul,
 .headerBot,
 .thingsTop,
 .thingsBot,
+.blogBot,
 .photos{
     display:flex;
     flex-wrap:wrap;
 }
 
 .headerBot,
+.blogBot,
 .photos{
     justify-content:space-between;
 }
