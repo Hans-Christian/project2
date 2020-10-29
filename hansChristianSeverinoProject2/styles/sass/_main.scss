@@ -7,9 +7,10 @@
     width:100%;
 }
 
-.photos,
 .about,
-.blogBot{
+.things,
+.blogBot,
+.photos{
     padding:10rem 0;
 }
 
@@ -23,8 +24,13 @@
     padding:1.3rem 2rem;
 }
 
-.blogBot img{
-    box-shadow:20px 20px $orangeyY;
+.thingsTop div,
+.thingsBot div{
+    width:39%;
+}
+
+.thingsBot div{
+    text-align:right;
 }
 
 .blogBot div:nth-child(2){

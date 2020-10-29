@@ -37,3 +37,15 @@ span{
 .fab{
     color:$orangeyY;
 }
+
+.thingsTop img{
+    box-shadow:-110px 20px $rust, 20px 20px $rust;
+}
+
+.thingsBot img{
+    box-shadow:110px 20px $orangeyY, 20px 20px $orangeyY;
+}
+
+.blogBot img{
+    box-shadow:20px 20px $orangeyY;
+}

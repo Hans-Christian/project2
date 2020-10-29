@@ -342,6 +342,8 @@ header ul,
 }
 
 .headerBot,
+.thingsTop,
+.thingsBot,
 .blogBot,
 .photos {
   -webkit-box-pack: justify;
@@ -393,6 +395,21 @@ span {
 
 .fab {
   color: #f6a823;
+}
+
+.thingsTop img {
+  -webkit-box-shadow: -110px 20px #a82706, 20px 20px #a82706;
+          box-shadow: -110px 20px #a82706, 20px 20px #a82706;
+}
+
+.thingsBot img {
+  -webkit-box-shadow: 110px 20px #f6a823, 20px 20px #f6a823;
+          box-shadow: 110px 20px #f6a823, 20px 20px #f6a823;
+}
+
+.blogBot img {
+  -webkit-box-shadow: 20px 20px #f6a823;
+          box-shadow: 20px 20px #f6a823;
 }
 
 header nav {
@@ -487,9 +504,10 @@ header ul {
   width: 100%;
 }
 
-.photos,
 .about,
-.blogBot {
+.things,
+.blogBot,
+.photos {
   padding: 10rem 0;
 }
 
@@ -503,9 +521,13 @@ header ul {
   padding: 1.3rem 2rem;
 }
 
-.blogBot img {
-  -webkit-box-shadow: 20px 20px #f6a823;
-          box-shadow: 20px 20px #f6a823;
+.thingsTop div,
+.thingsBot div {
+  width: 39%;
+}
+
+.thingsBot div {
+  text-align: right;
 }
 
 .blogBot div:nth-child(2) {
