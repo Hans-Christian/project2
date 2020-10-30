@@ -32,6 +32,10 @@ img{
     display:block;
 }
 
+li{
+    list-style:none;
+}
+
 body,
 a{
     color:$black;
