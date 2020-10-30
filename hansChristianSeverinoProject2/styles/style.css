@@ -347,6 +347,10 @@ header ul,
 .headerBot,
 .thingsTop,
 .thingsBot,
+.infoTop,
+.infoBot,
+.infoTop section,
+.infoBot section,
 .blogBot,
 .photos {
   display: -webkit-box;
@@ -507,6 +511,7 @@ header ul {
 }
 
 .about,
+.info,
 .blogBot,
 .photos {
   padding: 10rem 0;
@@ -547,6 +552,22 @@ header ul {
 
 .thingsBot img {
   bottom: -3rem;
+}
+
+.fas {
+  padding: 1.5rem;
+  border-radius: 50%;
+}
+
+.infoTop section,
+.infoBot section {
+  width: 50%;
+}
+
+.infoTop div,
+.infoBot div {
+  width: 80%;
+  margin: 1rem 0 0 2rem;
 }
 
 footer {
