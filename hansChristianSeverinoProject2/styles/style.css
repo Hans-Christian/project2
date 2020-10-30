@@ -328,6 +328,21 @@ footer p {
   font-size: 2.4rem;
 }
 
+.about a,
+.things a,
+.blogBot a {
+  padding: 1rem 2rem;
+}
+
+.headerBot div + img,
+.headerBot div > img,
+#blogHeader h1,
+#contactHeader h1,
+.thingsTop img,
+.thingsBot img {
+  position: relative;
+}
+
 header ul,
 .headerBot,
 .thingsTop,
@@ -349,12 +364,6 @@ header ul,
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.about a,
-.things a,
-.blogBot a {
-  padding: 1rem 2rem;
 }
 
 Header nav,
@@ -465,13 +474,6 @@ h1 {
   background-position: 0 53px;
 }
 
-.headerBot div + img,
-.headerBot div > img,
-#blogHeader h1,
-#contactHeader h1 {
-  position: relative;
-}
-
 .headerBot div + img {
   -webkit-box-shadow: 20px 20px white;
           box-shadow: 20px 20px white;
@@ -505,7 +507,6 @@ header ul {
 }
 
 .about,
-.things,
 .blogBot,
 .photos {
   padding: 10rem 0;
@@ -526,13 +527,26 @@ header ul {
   width: 39%;
 }
 
+.thingsTop div {
+  margin: 12.5rem 3rem 0 0;
+}
+
 .thingsBot div {
   text-align: right;
+  margin: 3rem 0 0 5rem;
 }
 
 .blogBot div:nth-child(2) {
   width: 65%;
   margin-top: 2.3rem;
+}
+
+.thingsTop img {
+  top: -5rem;
+}
+
+.thingsBot img {
+  bottom: -3rem;
 }
 
 footer {

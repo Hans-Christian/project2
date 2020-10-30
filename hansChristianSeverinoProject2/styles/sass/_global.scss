@@ -105,6 +105,21 @@ footer p{
     font-size:2.4rem;
 }
 
+.about a,
+.things a,
+.blogBot a{
+    padding:1rem 2rem;
+}
+
+.headerBot div + img,
+.headerBot div > img,
+#blogHeader h1,
+#contactHeader h1,
+.thingsTop img,
+.thingsBot img{
+    position:relative;
+}
+
 header ul,
 .headerBot,
 .thingsTop,
@@ -123,8 +138,4 @@ header ul,
     justify-content:space-between;
 }
 
-.about a,
-.things a,
-.blogBot a{
-    padding:1rem 2rem;
-}
+

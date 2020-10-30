@@ -8,7 +8,7 @@
 }
 
 .about,
-.things,
+// .info,
 .blogBot,
 .photos{
     padding:10rem 0;
@@ -29,12 +29,27 @@
     width:39%;
 }
 
+.thingsTop div{
+    margin:12.5rem 3rem 0 0;
+}
+
 .thingsBot div{
     text-align:right;
+    margin:3rem 0 0 5rem;
 }
 
 .blogBot div:nth-child(2){
     width:65%;
     margin-top:2.3rem;
 }
+
+.thingsTop img{
+    top:-5rem;
+}
+
+.thingsBot img{
+    bottom:-3rem;
+}
+
+
 
