@@ -357,7 +357,8 @@ header ul,
 .infoBot section,
 .blogBot,
 .photos,
-#contactMain {
+#contactMain,
+#blogMain {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -428,6 +429,11 @@ span {
 .blogBot img {
   -webkit-box-shadow: 20px 20px #f6a823;
           box-shadow: 20px 20px #f6a823;
+}
+
+.blogTop,
+.comment2 {
+  border-bottom: 0.7rem solid #f6a823;
 }
 
 header nav {
@@ -602,8 +608,7 @@ header ul {
 .blogAbout,
 .blogPosts,
 .blogTop,
-.comment1,
-.comment2 {
+.comment {
   padding: 3rem;
 }
 
@@ -617,6 +622,35 @@ header ul {
 
 .blogPosts li {
   padding-left: 3.5rem;
+}
+
+.blogTop h2 + p {
+  margin-top: 2rem;
+}
+
+.blogTop p,
+.comment p:first-child {
+  margin-bottom: 1.5rem;
+}
+
+.bloggingTop {
+  width: 24.5%;
+  margin-right: 3rem;
+}
+
+.bloggingBot {
+  width: 54%;
+  margin-left: 0;
+}
+
+.comment img,
+.comment div {
+  float: left;
+}
+
+.comment div {
+  width: calc(87% - 1rem);
+  margin-left: 1rem;
 }
 
 footer {

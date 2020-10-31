@@ -134,7 +134,8 @@ header ul,
 .infoBot section,
 .blogBot,
 .photos,
-#contactMain{
+#contactMain,
+#blogMain{
     display:flex;
     flex-wrap:wrap;
 }
@@ -146,5 +147,3 @@ header ul,
 .photos{
     justify-content:space-between;
 }
-
-

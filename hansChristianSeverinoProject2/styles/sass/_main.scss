@@ -95,8 +95,7 @@
 .blogAbout,
 .blogPosts,
 .blogTop,
-.comment1,
-.comment2{
+.comment{
     padding:3rem;
 }
 
@@ -111,3 +110,33 @@
 .blogPosts li{
     padding-left:3.5rem;
 }
+
+.blogTop h2 + p{
+    margin-top:2rem;
+}
+
+.blogTop p,
+.comment p:first-child{
+    margin-bottom:1.5rem;
+}
+
+.bloggingTop{
+    width:24.5%;
+    margin-right:3rem;
+}
+
+.bloggingBot{
+    width:54%;
+    margin-left:0;
+}
+
+.comment img,
+.comment div{
+    float:left;
+}
+
+.comment div{
+    width:calc(87% - 1rem);
+    margin-left:1rem;
+}
+
