@@ -14,11 +14,10 @@
     }
 }
 
-@media (max-width:1319px){
-    
+@media (max-width:1307px){
+
     .photos{
-        flex-direction:column;
-        width:calc(100% / 3);
+        justify-content:space-evenly;
     }
 
     .photos img{
@@ -38,8 +37,9 @@
 }
 
 @media (max-width:1256px){
+    
     .things{
-        padding:8rem;
+        padding:8rem 0;
     }
 
     .thingsTop{
@@ -50,23 +50,31 @@
         flex-direction:column-reverse;
     }
 
+    .about .wrapper,
     .thingsTop div,
     .thingsBot div{
         width:95%;
+        text-align:center;
+    }
+
+    .thingsTop div,
+    .thingsBot div,
+    .thingsTop img,
+    .thingsBot img{
+        margin:0 auto;
     }
 
     .thingsTop div{
-        margin:5rem 0 0 2.5rem;
+        margin-top:5rem;
     }
 
     .thingsBot div{
-        margin:7rem 0 2.5rem 0;
+        margin-top:7rem;
     }
 
     .thingsTop img,
     .thingsBot img{
         width:calc(100% / 2);
-        margin:0 auto;
     }
 }
 
@@ -106,7 +114,37 @@
 
     .blogBot div:last-child{
         text-align:center;
+        width:95%;
     }
-
 }
 
+@media(max-width:900px){
+    
+    .about,
+    .info,
+    .blogBot,
+    .photos{
+        padding:5rem 0;
+    }
+
+    .things{
+        padding:3rem 0;
+    }
+}
+
+@media (max-width:797px){
+    
+    .infoTop,
+    .infoBot{
+        flex-direction:column;
+    }
+
+    .infoTop section,
+    .infoBot section{
+        width:95%;
+    }
+}
+
+@media (max-width:649px){
+    // Make burger menu here!
+}
