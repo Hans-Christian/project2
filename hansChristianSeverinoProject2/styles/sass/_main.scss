@@ -88,7 +88,7 @@
 .blogAbout,
 .blogPosts,
 .blogTop,
-.comment1{
+.comment{
     margin-bottom:2.5rem;
 }
 
@@ -139,4 +139,50 @@
     width:calc(87% - 1rem);
     margin-left:1rem;
 }
+
+input,
+textarea{
+    border-color:transparent;
+}
+
+.formTop{
+    margin-bottom:1.3rem;
+}
+
+.formBot div{
+    margin-bottom:1rem;
+}
+
+#name,
+#email{
+    width:49.6%;
+    padding:1.5rem 0 1.5rem 3rem;
+}
+
+#comment,
+#message{
+    padding:1.5rem 0 0 3rem;
+}
+
+#name,
+#email,
+#comment,
+#message{
+    font-style:italic;
+}
+
+textarea,
+input[type=submit]{
+    width:100%;
+}
+
+textarea{
+    resize:none;
+}
+
+input[type=submit]{
+    padding:0.6rem 0;
+}
+
+
 

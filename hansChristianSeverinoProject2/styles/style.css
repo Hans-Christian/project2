@@ -259,11 +259,6 @@ li {
   list-style: none;
 }
 
-body,
-a {
-  color: #2c2c2c;
-}
-
 a {
   text-decoration: none;
 }
@@ -323,6 +318,7 @@ footer p {
 .things a,
 .blog a,
 #submit,
+input[type=submit],
 footer p {
   text-align: center;
 }
@@ -330,12 +326,6 @@ footer p {
 aside h3,
 footer p {
   font-size: 2.4rem;
-}
-
-.about a,
-.things a,
-.blogBot a {
-  padding: 1rem 2rem;
 }
 
 .headerBot div + img,
@@ -374,6 +364,11 @@ header ul,
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+body,
+a {
+  color: #2c2c2c;
 }
 
 Header nav,
@@ -434,6 +429,15 @@ span {
 .blogTop,
 .comment2 {
   border-bottom: 0.7rem solid #f6a823;
+}
+
+.blogPosts li::before {
+  content: "\2022";
+  color: #f6a823;
+  font-weight: bold;
+  display: inline-block;
+  width: 2.5rem;
+  margin-left: -2.1rem;
 }
 
 header nav {
@@ -601,7 +605,7 @@ header ul {
 .blogAbout,
 .blogPosts,
 .blogTop,
-.comment1 {
+.comment {
   margin-bottom: 2.5rem;
 }
 
@@ -651,6 +655,50 @@ header ul {
 .comment div {
   width: calc(87% - 1rem);
   margin-left: 1rem;
+}
+
+input,
+textarea {
+  border-color: transparent;
+}
+
+.formTop {
+  margin-bottom: 1.3rem;
+}
+
+.formBot div {
+  margin-bottom: 1rem;
+}
+
+#name,
+#email {
+  width: 49.6%;
+  padding: 1.5rem 0 1.5rem 3rem;
+}
+
+#comment,
+#message {
+  padding: 1.5rem 0 0 3rem;
+}
+
+#name,
+#email,
+#comment,
+#message {
+  font-style: italic;
+}
+
+textarea,
+input[type=submit] {
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type=submit] {
+  padding: 0.6rem 0;
 }
 
 footer {

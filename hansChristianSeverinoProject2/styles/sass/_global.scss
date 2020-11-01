@@ -36,11 +36,6 @@ li{
     list-style:none;
 }
 
-body,
-a{
-    color:$black;
-}
-
 a{
     text-decoration:none;
 }
@@ -100,6 +95,7 @@ footer p{
 .things a,
 .blog a,
 #submit,
+input[type=submit],
 footer p{
     text-align:center;
 }
@@ -107,12 +103,6 @@ footer p{
 aside h3,
 footer p{
     font-size:2.4rem;
-}
-
-.about a,
-.things a,
-.blogBot a{
-    padding:1rem 2rem;
 }
 
 .headerBot div + img,
@@ -147,3 +137,4 @@ header ul,
 .photos{
     justify-content:space-between;
 }
+

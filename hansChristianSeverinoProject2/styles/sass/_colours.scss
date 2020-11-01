@@ -1,3 +1,8 @@
+body,
+a{
+    color:$black;
+}
+
 Header nav,
 #indexHeader,
 .fas{
@@ -53,4 +58,13 @@ span{
 .blogTop,
 .comment2{
     border-bottom:0.7rem solid $orangeyY;
+}
+
+.blogPosts li::before{
+    content:"\2022";
+    color:$orangeyY;
+    font-weight:bold;
+    display:inline-block;
+    width:2.5rem;
+    margin-left:-2.1rem;
 }
