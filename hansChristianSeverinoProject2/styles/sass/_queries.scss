@@ -1,0 +1,112 @@
+@media (max-width:1374px){
+    
+    .thingsTop img{
+        top:0;
+    }
+    
+    .thingsTop div,
+    .thingsBot div{
+        margin-top:7rem;
+    }
+
+    .thingsBot img{
+        bottom:-2rem;
+    }
+}
+
+@media (max-width:1319px){
+    
+    .photos{
+        flex-direction:column;
+        width:calc(100% / 3);
+    }
+
+    .photos img{
+        margin-bottom:2.5rem;
+    }
+
+    .photos img:last-child{
+        margin-bottom:0;
+    }
+}
+
+@media (max-width:1274px){
+    
+    #indexHeader h1{
+        font-size:9rem;
+    }
+}
+
+@media (max-width:1256px){
+    .things{
+        padding:8rem;
+    }
+
+    .thingsTop{
+        flex-direction:column;
+    }
+
+    .thingsBot{
+        flex-direction:column-reverse;
+    }
+
+    .thingsTop div,
+    .thingsBot div{
+        width:95%;
+    }
+
+    .thingsTop div{
+        margin:5rem 0 0 2.5rem;
+    }
+
+    .thingsBot div{
+        margin:7rem 0 2.5rem 0;
+    }
+
+    .thingsTop img,
+    .thingsBot img{
+        width:calc(100% / 2);
+        margin:0 auto;
+    }
+}
+
+@media (max-width:1106px){
+    
+    .headerBot div > img{
+        top:4rem;
+    }
+
+    #indexHeader h1{
+        margin:-2.5rem 0 0 8rem;
+        padding:0;
+    }
+
+    .headerBot div ~ img{
+        width:calc(100% / 2);
+        margin:0 auto;
+        bottom:0;
+        right:0;
+    }
+}
+
+@media (max-width:1042px){
+    
+    .blogBot{
+        flex-direction:column;
+    }
+
+    .blogBot img,
+    .blogBot div:last-child{
+        margin:0 auto;
+    }
+
+    .blogBot h2{
+        margin-top:4rem;
+    }
+
+    .blogBot div:last-child{
+        text-align:center;
+    }
+
+}
+

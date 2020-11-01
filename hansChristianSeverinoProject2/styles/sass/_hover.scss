@@ -5,6 +5,21 @@ header a:focus,
     color:$orangeR;
 }
 
+// Can't take credit for this block of code. Watched video on how to do this!
+header a::after{
+    content:'';
+    display:block;
+    width:0;
+    height:0.2rem;
+    transition:0.3s;
+    background-color:$orangeR;
+}
+
+header a:hover::after{
+    width:100%;
+}
+// Can't take credit for this block of code. Watched video on how to do this!
+
 .about a:hover,
 .about a:focus,
 .things a:hover,
