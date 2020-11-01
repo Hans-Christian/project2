@@ -440,6 +440,36 @@ span {
   margin-left: -2.1rem;
 }
 
+header a:hover,
+header a:focus,
+.fab:hover,
+.fab:focus {
+  color: #FF4500;
+}
+
+.about a:hover,
+.about a:focus,
+.things a:hover,
+.things a:focus,
+.blog a:hover,
+.blog a:focus,
+#submit:hover,
+#submit:focus {
+  background-color: #f6a823;
+  color: #f0efed;
+  border-radius: 0.5rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.fas:hover,
+.fas:focus {
+  background-color: #FF4500;
+  color: #f0efed;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 header nav {
   line-height: 2.9rem;
   text-align: right;
@@ -670,7 +700,7 @@ textarea {
 
 #name,
 #email {
-  width: 49.6%;
+  width: calc(99.3% / 2);
   padding: 1.5rem 0 1.5rem 3rem;
 }
 

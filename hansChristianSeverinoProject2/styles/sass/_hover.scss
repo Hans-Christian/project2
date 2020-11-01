@@ -1,0 +1,28 @@
+header a:hover,
+header a:focus,
+.fab:hover,
+.fab:focus{
+    color:$orangeR;
+}
+
+.about a:hover,
+.about a:focus,
+.things a:hover,
+.things a:focus,
+.blog a:hover,
+.blog a:focus,
+#submit:hover,
+#submit:focus{
+    background-color:$orangeyY;
+    color:$whiteS;
+    border-radius:0.5rem;
+    transition:0.3s;
+}
+
+.fas:hover,
+.fas:focus{
+    background-color:$orangeR;
+    color:$whiteS;
+    transition:0.3s;
+}
+
