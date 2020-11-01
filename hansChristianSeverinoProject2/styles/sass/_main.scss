@@ -68,8 +68,8 @@
 }
 
 .contactTop{
-    width:25%;
-    padding:4rem 0 0 3rem;
+    padding:4rem 3rem;
+    height:30rem;
 }
 
 .contactTop i{
@@ -79,10 +79,6 @@
 
 .contactTop p:nth-of-type(1){
     margin:1rem 0;
-}
-
-.contactBot{
-    width:60%;
 }
 
 .blogAbout,
@@ -108,7 +104,7 @@
 }
 
 .blogPosts li{
-    padding-left:3.5rem;
+    padding-left:3.1rem;
 }
 
 .blogTop h2 + p{
@@ -120,12 +116,14 @@
     margin-bottom:1.5rem;
 }
 
-.bloggingTop{
+.bloggingTop,
+.contactTop{
     width:24.5%;
     margin-right:3rem;
 }
 
-.bloggingBot{
+.bloggingBot,
+.contactBot{
     width:54%;
     margin-left:0;
 }
@@ -161,7 +159,7 @@ textarea{
 
 #comment,
 #message{
-    padding:1.5rem 0 0 3rem;
+    padding:4rem 0 0 3rem;
 }
 
 #name,
@@ -184,5 +182,9 @@ input[type=submit]{
     padding:0.6rem 0;
 }
 
-
+#blogMain,
+#contactMain{
+    margin-top:-19.5rem;
+    margin-bottom:8.5rem;
+}
 
