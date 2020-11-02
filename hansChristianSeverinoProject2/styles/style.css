@@ -754,6 +754,36 @@ footer {
   color: #f0efed;
 }
 
+@media (max-width: 1399px) {
+  #contactHeader h1,
+  #blogHeader h1 {
+    font-size: 6rem;
+    top: -5rem;
+    bottom: 0;
+  }
+  #contactMain,
+  #blogMain {
+    margin: -27.5rem 0 4.5rem 0;
+  }
+}
+
+@media (max-width: 1383px) {
+  #contactMain {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contactTop,
+  .contactBot {
+    margin: 0 auto;
+  }
+  .contactTop {
+    width: 30%;
+    margin-bottom: 2rem;
+  }
+}
+
 @media (max-width: 1374px) {
   .thingsTop img {
     top: 0;
@@ -764,6 +794,16 @@ footer {
   }
   .thingsBot img {
     bottom: -2rem;
+  }
+}
+
+@media (max-width: 1322px) {
+  #name,
+  #email {
+    width: 100%;
+  }
+  #name {
+    margin-bottom: 1rem;
   }
 }
 
@@ -827,6 +867,15 @@ footer {
   }
 }
 
+@media (max-width: 1133px) {
+  #contactMain {
+    margin-top: -33.5rem;
+  }
+  .contactTop {
+    width: 35%;
+  }
+}
+
 @media (max-width: 1106px) {
   .headerBot div > img {
     top: 4rem;
@@ -840,6 +889,14 @@ footer {
     margin: 0 auto;
     bottom: 0;
     right: 0;
+  }
+}
+
+@media (max-width: 1097px) {
+  #contactHeader h1,
+  #blogHeader h1 {
+    font-size: 4.5rem;
+    top: -5rem;
   }
 }
 
@@ -863,6 +920,15 @@ footer {
   }
 }
 
+@media (max-width: 973px) {
+  #contactMain {
+    margin-top: -38rem;
+  }
+  .contactTop {
+    width: 40%;
+  }
+}
+
 @media (max-width: 900px) {
   .about,
   .info,
@@ -872,6 +938,20 @@ footer {
   }
   .things {
     padding: 3rem 0;
+  }
+}
+
+@media (max-width: 854px) {
+  #contactHeader h1,
+  #blogHeader h1 {
+    bottom: 0;
+    left: 0;
+  }
+  #contactMain {
+    margin-top: -41rem;
+  }
+  .contactTop {
+    width: 48%;
   }
 }
 
@@ -886,5 +966,33 @@ footer {
   .infoTop section,
   .infoBot section {
     width: 95%;
+  }
+}
+
+@media (max-width: 749px) {
+  .contactTop {
+    width: 50%;
+  }
+}
+
+@media (max-width: 686px) {
+  #contactMain {
+    margin-top: -45rem;
+  }
+  .contactTop {
+    width: 53.5%;
+    height: 48%;
+  }
+}
+
+@media (max-width: 644px) {
+  #contactMain {
+    margin-top: -47rem;
+  }
+}
+
+@media (max-width: 526px) {
+  #contactMain {
+    margin-top: -51rem;
   }
 }
